@@ -3,16 +3,7 @@ module.exports = {
     title: `TW EXPERTS`,
     fullTitle: `TAKWORLD EXPERTS LIMITED`,
     description: `Listen better | Plan better | Build better.`,
-    about: `TAKWORLD Experts Limited is an incorporated engineering and 
-    infrastructure development firm.
-    It continues to grow and develop progressively over years 
-    during which it has been providing expertise in Structural
-    Designs, Cost control and Valuations, Cost analysis and advice for 
-    a variety of engineering projects
-    
-    TAKWORLD Experts Limited has on several occasions handled
-    projects in association with a number of consulting firms; this
-    arrangement has been on job-to-job basis.`,
+    about: `TAKWORLD Experts Limited is an incorporated engineering and infrastructure development firm. It continues to grow and develop progressively over years  during which it has been providing expertise in Structural Designs, Cost control and Valuations, Cost analysis and advice for  a variety of engineering projects. TAKWORLD Experts Limited has on several occasions handled projects in association with a number of consulting firms; this arrangement has been on job-to-job basis.`,
     email: `takworldexperts@gmail.com`,
     social: {
       facebook: `https://facebook.com/takworldexpertsltd`,
