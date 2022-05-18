@@ -38,7 +38,7 @@ module.exports = {
       position: `Software Engineer`,
       email: `atwiinenicxon@gmail.com`,
       contact: `(+256) 785010080`,
-      website: `https://atwiinenickson.github.io/portfolio`,
+      website: `https://github.com/Atwinenickson`,
     },
   },
   plugins: [
