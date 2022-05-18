@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `TP Construction`,
-    fullTitle: `TANPEL CONSTRUCTION`,
+    title: `TW EXPERTS`,
+    fullTitle: `TAKWORLD EXPERTS LIMITED`,
     description: `Listen better | Plan better | Build better.`,
-    about: `Since our incorporation in 1981, we've grown from a regional organization to a multi-faceted, national presence in the industry with headquarters in New York.`,
-    email: `info@tanpelconstruction.com`,
+    about: `Since our incorporation in 2020, we've grown from a regional organization to a multi-faceted, national presence in the industry with headquarters in New York.`,
+    email: `info@takworld.com`,
     social: {
       facebook: `https://facebook.com/tanpelconstruction`,
       twitter: `https://twitter.com/tanpelconstruction`,
@@ -15,7 +15,7 @@ module.exports = {
       mobile: `(+63) 912 345 6789`,
       telephone: `(02) 123 4567`,
     },
-    address: `Bermuda Subd., Pamplona 3, Las Pinas City, Philippines, 1740`,
+    address: `Kampala Uganda Ndejje`,
     map: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.590531801578!2d120.92931831483857!3d14.450745589898093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d282c1782f4f%3A0x62e247641b50bd21!2sBermuda%20Country%20Subdivision%2C%20Bacoor%2C%20Cavite!5e0!3m2!1sen!2sph!4v1566970336076!5m2!1sen!2sph`,
     opening: {
       day: `Monday - Friday`,
@@ -34,11 +34,11 @@ module.exports = {
     },
 
     author: {
-      name: `Mark Dino Pelonia`,
-      position: `Web Developer`,
-      email: `markdinopelonia447@gmail.com`,
-      contact: `(+63) 946 290 9678`,
-      website: `https://markdino.github.io/portfolio`,
+      name: `Atwine Nickson`,
+      position: `Software Engineer`,
+      email: `atwiinenicxon@gmail.com`,
+      contact: `(+256) 785010080`,
+      website: `https://atwiinenickson.github.io/portfolio`,
     },
   },
   plugins: [
