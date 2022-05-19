@@ -90,6 +90,15 @@ class Header extends Component {
                     Contact
                   </Link>
                 </NavItem>
+                <NavItem>
+                  <Link
+                    className="nav-link"
+                    activeStyle={{ fontWeight: "bold" }}
+                    to="/executive"
+                  >
+                    Meet the Team
+                  </Link>
+                </NavItem>
               </Nav>
             </Collapse>
           </Container>
