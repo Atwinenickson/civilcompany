@@ -14,32 +14,37 @@ import Helmet from "../images/icons/icon-helmet-67x65.png"
 const ServicesPage = () => {
   const card = [
     {
-      title: `Construction`,
+      title: `Building Construction`,
       icon: Bulldozer,
       description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
     },
     {
-      title: `Remodeling`,
+      title: `Preparing Architectural Drawings`,
       icon: Tassels,
       description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
     },
     {
-      title: `Interior Design`,
+      title: `Structural Inspection Assesment`,
+      icon: Tassels,
+      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
+    },
+    {
+      title: `Preparing BOQs`,
       icon: Ruler,
       description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
     },
     {
-      title: `Contracting`,
+      title: `Project Management`,
       icon: Suitcase,
       description: `Top Project can manage and hire subcontractors while acting as the main contact with construction clients.`,
     },
     {
-      title: `Preconstruction`,
+      title: `Construction Inspection and Supervision`,
       icon: Relues,
       description: `Preconstruction involves performing preliminary planning and engineering in order to define the project.`,
     },
     {
-      title: `Green Building`,
+      title: `Geotechnical Assesment`,
       icon: Helmet,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },
