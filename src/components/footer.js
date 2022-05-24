@@ -17,7 +17,7 @@ import InstagramSVG from "../assets/svg/instagram.svg"
 import LinkedinSVG from "../assets/svg/linkedin.svg"
 
 import ISO9001 from "../images/badge/eng.png"
-import ISO14001 from "../images/badge/eng1.png"
+import ISO14001 from "../images/badge/eng1.jpeg"
 import ISO45001 from "../images/badge/kcca.png"
 import PCAB from "../images/badge/ug.png"
 import PCA from "../images/badge/un.jpeg"
