@@ -4,15 +4,30 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        original: '../images/team/arnold.jpg',
+        thumbnail: '../images/team/arnold.jpg',
         description: 'Tusingwire Arnold(Director)',
     },
     {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
-        description: 'Render custom slides (such as videos)',
-    }
+        original: '../images/team/jill.jpg',
+        thumbnail: '../images/team/jill.jpg',
+        description: 'Kankunda Jill Elizabeth(Director)',
+    },  
+    {
+        original: '../images/team/benja.jpg',
+        thumbnail: '../images/team/benja.jpg',
+        description: 'Chelimo Benjamin(Structual Engineer)',
+    },
+    {
+        original: '../images/team/isabel.jpg',
+        thumbnail: '../images/team/isabel.jpg',
+        description: 'Ankunda Isabel(Finance Manager)',
+    },
+    {
+        original: '../images/team/phil.jpg',
+        thumbnail: '../images/team/phil.jpg',
+        description: 'Niwemugabi Philbert(Site Engineer)',
+    },
 ];
 
 const Executive = () => {

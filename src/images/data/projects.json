@@ -16,11 +16,11 @@
       "orig": "https://unsplash.com/photos/2d4lAQAlbDA",
       "author": "Photo by iAlicante Mediterranean Homes on Unsplash"
     },
-    "amount": "Php 4,000,000.00",
+    "amount": "UGX 4,000,000.00",
     "duration": "85 Calendar days",
-    "completionDate": "Feb. 20, 2018",
+    "completionDate": "Feb. 20, 2020",
     "owner": "ialicante.com",
-    "address": "Alicante, Costa Blanca, Spain",
+    "address": "Kampala, Uganda",
     "featured": true
   },
   {
@@ -35,11 +35,11 @@
       "orig": "https://unsplash.com/photos/jn7uVeCdf6U",
       "author": "Photo by Jarek Ceborski on Unsplash"
     },
-    "amount": "Php 4,000,000.00",
+    "amount": "UGX 4,000,000.00",
     "duration": "85 Calendar days",
     "completionDate": "Feb. 20, 2018",
     "owner": "Jarek Ceborski",
-    "address": "Wrocław, Poland"
+    "address": "Mbarara Uganda"
   },
   {
     "title": "Pixasquare",
@@ -53,7 +53,7 @@
       "orig": "https://unsplash.com/photos/4ojhpgKpS68",
       "author": "Photo by Pixasquare on Unsplash"
     },
-    "amount": "Php 4,000,000.00",
+    "amount": "UGX 4,000,000.00",
     "duration": "85 Calendar days",
     "completionDate": "Feb. 20, 2018",
     "owner": "pixasquare.com",
@@ -75,7 +75,7 @@
     "duration": "85 Calendar days",
     "completionDate": "Feb. 20, 2018",
     "owner": "Sphericity",
-    "address": "Manila, Philippines"
+    "address": "Kabale, Uganda"
   },
   {
     "title": "Jason Briscoe",
@@ -95,7 +95,7 @@
     "duration": "85 Calendar days",
     "completionDate": "Feb. 20, 2018",
     "owner": "Jason Briscoe",
-    "address": "Toronto",
+    "address": "Kampala, Uganda",
     "featured": true
   },
   {
@@ -117,7 +117,7 @@
     "duration": "85 Calendar days",
     "completionDate": "Feb. 20, 2018",
     "owner": "Lance Anderson",
-    "address": "Cleveland, United States",
+    "address": "Gulu, Uganda",
     "featured": true
   }
 ]

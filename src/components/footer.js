@@ -16,11 +16,11 @@ import TwitterSVG from "../assets/svg/twitter.svg"
 import InstagramSVG from "../assets/svg/instagram.svg"
 import LinkedinSVG from "../assets/svg/linkedin.svg"
 
-import ISO9001 from "../images/badge/ISO-9001.png"
-import ISO14001 from "../images/badge/ISO-14001.png"
-import ISO45001 from "../images/badge/ISO-45001.png"
-import PCAB from "../images/badge/pcab.png"
-import PCA from "../images/badge/pca.png"
+import ISO9001 from "../images/badge/eng.png"
+import ISO14001 from "../images/badge/eng1.png"
+import ISO45001 from "../images/badge/kcca.png"
+import PCAB from "../images/badge/ug.png"
+import PCA from "../images/badge/un.jpeg"
 
 const Footer = ({ siteMetadata }) => {
   const {
