@@ -14,7 +14,7 @@ import Footer from "./footer"
 import "./layout.scss"
 
 import brandLogo from "../images/brand-logo.png"
-import tLogo from "../images/logo.png"
+import tLogo from "../images/logo.jpg"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
