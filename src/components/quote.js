@@ -10,7 +10,7 @@ const QuoteUs = () => {
         <div className="theme-wrapper">
           <div className="parallax-content section-lg">
             <Container className="flex-sb">
-              <h3>Looking for a high quality constructor for your project?</h3>
+              <h3>Looking for professional Engineers | Architects | Surveyors for your project?</h3>
               <Link to="/contact/#contact" className="center">
                 <Button>Quote to Us</Button>
               </Link>

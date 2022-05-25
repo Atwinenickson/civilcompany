@@ -14,6 +14,7 @@ import Footer from "./footer"
 import "./layout.scss"
 
 import brandLogo from "../images/brand-logo.png"
+import tLogo from "../images/logo.png"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -50,7 +51,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="layout">
-      <Header siteTitle={data.site.siteMetadata.title} logo={brandLogo} />
+      <Header siteTitle={data.site.siteMetadata.title} logo={tLogo} />
       <main>{children}</main>
       <Footer siteMetadata={data.site.siteMetadata} />
     </div>

@@ -16,11 +16,14 @@ import TwitterSVG from "../assets/svg/twitter.svg"
 import InstagramSVG from "../assets/svg/instagram.svg"
 import LinkedinSVG from "../assets/svg/linkedin.svg"
 
-import ISO9001 from "../images/badge/eng.png"
-import ISO14001 from "../images/badge/eng1.jpeg"
+import ISO9001 from "../images/badge/eu.jpg"
+import ISO14001 from "../images/badge/euu.jpg"
 import ISO45001 from "../images/badge/kcca.png"
-import PCAB from "../images/badge/ug.png"
-import PCA from "../images/badge/un.jpeg"
+import PCAB from "../images/badge/euuu.jpg"
+import PCA from "../images/badge/eng1.jpeg"
+import PA from "../images/badge/pa.jpg"
+import UR from "../images/badge/ur.jpg"
+import UG from "../images/badge/ug.png"
 
 const Footer = ({ siteMetadata }) => {
   const {
@@ -39,6 +42,9 @@ const Footer = ({ siteMetadata }) => {
     { img: ISO45001, alt: "ISO-45001" },
     { img: PCAB, alt: "PCAB LICENSE" },
     { img: PCA, alt: "PCA" },
+    { img: PA, alt: "PA" },
+    { img: UR, alt: "UR" },
+    { img: UG, alt: "UG" }
   ]
   return (
     <footer>
@@ -47,7 +53,7 @@ const Footer = ({ siteMetadata }) => {
           <Row className="section-md">
             <Col className="company-badge" lg="4" sm="12">
               <h4 className="text-center font-weight-bold mt-4 mb-2">
-                Licensed/Accredited
+                Licensed/Powered By:
               </h4>
               <section className="img-badge d-flex flex-wrap justify-content-around align-items-center">
                 {badges.map(badge => (
