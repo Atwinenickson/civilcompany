@@ -1,41 +1,26 @@
 import React from "react"
-import ImageGallery from 'react-image-gallery';
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
+import "./executive.css"
+import Arnold from '../images/team/arnold.jpg';
+import Jill from '../images/team/jill.jpg';
+import Benja from '../images/team/benja.jpg';
+import Isabel from '../images/team/isabel.jpg';
+import Phil from '../images/team/phil.jpg';
 
-
-const images = [
-    {
-        original: '../images/team/arnold.jpg',
-        thumbnail: '../images/team/arnold.jpg',
-        description: 'Tusingwire Arnold(Director)',
-    },
-    {
-        original: '../images/team/jill.jpg',
-        thumbnail: '../images/team/jill.jpg',
-        description: 'Kankunda Jill Elizabeth(Director)',
-    },  
-    {
-        original: '../images/team/benja.jpg',
-        thumbnail: '../images/team/benja.jpg',
-        description: 'Chelimo Benjamin(Structual Engineer)',
-    },
-    {
-        original: '../images/team/isabel.jpg',
-        thumbnail: '../images/team/isabel.jpg',
-        description: 'Ankunda Isabel(Finance Manager)',
-    },
-    {
-        original: '../images/team/phil.jpg',
-        thumbnail: '../images/team/phil.jpg',
-        description: 'Niwemugabi Philbert(Site Engineer)',
-    },
-];
+const handleDragStart = (e) => e.preventDefault();
 
 const Executive = () => {
     return (
-        <section>
-
-            <ImageGallery items={images} />
-        </section>
+        <div className="executive">
+            <AliceCarousel mouseTracking autoPlay autoPlayInterval={1000}>
+                <img src={Arnold} onDragStart={handleDragStart} role="presentation"  classname="sliderimg" alt="" />
+                <img src={Jill} onDragStart={handleDragStart} role="presentation" classname="sliderimg" alt="" />
+                <img src={Benja} onDragStart={handleDragStart} role="presentation" classname="sliderimg" alt="" />
+                <img src={Isabel} onDragStart={handleDragStart} role="presentation" classname="sliderimg" alt="" />
+                <img src={Phil} onDragStart={handleDragStart} role="presentation"  classname="sliderimg" alt="" />
+            </AliceCarousel>
+        </div>
     )
 }
 
