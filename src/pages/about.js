@@ -20,10 +20,13 @@ const AboutPage = () => {
   const { title, fullTitle } = data.site.siteMetadata
 
   const aboutContent = [
-    `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea molestias incidunt reprehenderit. Aliquam harum laboriosam reprehenderit delectus nostrum iste in ullam perspiciatis! Doloremque quibusdam quo quas deleniti. Libero tempore nobis autem pariatur, cumque sunt dolor consequuntur sit velit! Voluptates ea sequi vitae distinctio voluptatem. Quis, tenetur necessitatibus? Dicta, perferendis provident?`,
-    `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nisi esse dolorum architecto, id et illo, mollitia consectetur eaque debitis enim ea facere provident aperiam repellat nam natus molestiae expedita?`,
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatibus cumque incidunt vero corporis architecto vel voluptas optio nemo, cum repellendus, doloremque, voluptates sit? Sit facilis, minus odio tempora dicta distinctio expedita ipsa alias ipsam fuga, nulla dolor, quos ut molestias quia?`,
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa officiis aperiam suscipit quaerat non reprehenderit sapiente hic, odit, praesentium dolorem veritatis. Velit dolorum accusamus debitis blanditiis? Ad officia corporis optio neque quaerat dolore, incidunt, ducimus facilis quo ratione, dicta quos voluptatibus ab consequatur unde debitis quibusdam! Temporibus, dolor pariatur ipsa eaque assumenda nesciunt nam! Ab rem ex iusto aut.`,
+    `TAKWORLD Experts Limited is an incorporated engineering and Infrastructure development firm. It continues to grow and develop progressively over years During which it has been providing expertise in Structural Designs, Cost control and Valuations, Cost analysis and advice for A variety of engineering projects`,
+    `TAKWORLD Experts Limited has on several occasions handled Projects in association with a number of consulting firms; this Arrangement has been on a job-to-job basis.`,
+    `We employ the highest ethical standards and believe that our continued success is based upon sustaining the relationships that keep our business growing. We believe that open and honest communication is vital to the lasting success of the firm.`,
+    `We remain accountable to our clients for the efficient execution of any project.  We will work to identify and execute cost savings wherever we can.`,
+    `We believe that an open culture characterised by mutual respect, sharing of ideas and a commitment to common goals contributes to the overall productivity of our firm.  Our philosophy is that each team member plays an important role in our company by providing individual expertise and a distinctive perspective to each project that they are involved in.`,
+    `In providing professional service we are dedicated to competence, dependability and excellence.  We believe that our projects are a reflection of who we are as a company.`,
+    `We are dedicated to not only achieving, but exceeding, client expectations.  Through a strong commitment to the above values, TAKWORLD EXPERTS LTD strives to set ourselves above the rest.`
   ]
   return (
     <section id="about">
@@ -48,13 +51,7 @@ const AboutPage = () => {
             <Col md="6">
               <AboutCard title="Mission">
                 <p>
-                  <strong>{fullTitle} </strong>Ipsum dolor sit amet consectetur
-                  adipisicing elit. Ullam quisquam ratione et sint, quos
-                  dolores, corporis debitis minus, vitae officia adipisci ipsa
-                  fugiat est dolorum eum optio blanditiis quas doloribus hic
-                  saepe dicta fugit exercitationem. Sed, recusandae atque nobis
-                  facilis voluptates, dolores quaerat aspernatur dolorem iusto
-                  autem, facere ipsa. Fugiat
+                  <strong>{fullTitle} </strong>We will deliver reliable, high quality solutions for infrastructure always ensuring that integrity, safety  and sustainability are at the heart of everything we do
                 </p>
                 <ol>
                   <li>Providing awesome customer service to our clients.</li>
@@ -75,28 +72,23 @@ const AboutPage = () => {
             </Col>
             <Col md="6">
               <AboutCard title="Vision">
+                <strong>{fullTitle} </strong>
                 <p>
-                  Ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  quisquam ratione et sint, quos dolores, corporis debitis
-                  minus, vitae officia adipisci ipsa fugiat est dolorum eum
-                  optio blanditiis quas doloribus hic saepe dicta fugit
-                  exercitationem. Sed, recusandae atque nobis facilis
-                  voluptates, <strong>{fullTitle} </strong>
-                  dolores quaerat aspernatur dolorem iusto autem, facere ipsa.
+                  To be the Company of choice for clients in the market, for all our business driven by passion to work, use of cutting edge technology and execution excellence
                 </p>
               </AboutCard>
               <AboutCard title="Core Values">
                 <p>
-                  Ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  quisquam ratione et sint, quos dolores, corporis debitis
-                  minus, vitae officia adipisci ipsa fugiat est{" "}
-                  <strong>{title} </strong>dolorum eum optio blanditiis quas
-                  doloribus hic saepe dicta fugit exercitationem.
+                <strong>{title} </strong> ensures that the following core values are met when serving our dear customers and partners.
+
+           
                 </p>
                 <ul>
                   <li>Professionalism</li>
                   <li>Commitment</li>
                   <li>Integrity</li>
+                  <li>Efficiency</li>
+                  <li> Customer Service</li>
                 </ul>
               </AboutCard>
             </Col>
