@@ -8,7 +8,7 @@ const ProjCard = ({ proj }) => {
   return (
     <div className="proj-card">
       <Link to={`projects/${slug}/#single-project`}>
-        <img src={img.src[0]} alt={img.orig} title={img.author} />
+        <img src="https://de.wikipedia.org/wiki/FC_Liverpool" alt={img.orig} title={img.author} />
         <section className="wrap-dark">
           <main className="proj-content text-center">
             <h4>{title}</h4>

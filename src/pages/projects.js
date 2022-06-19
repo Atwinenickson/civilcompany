@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Project from "../components/project"
 import Services from "../components/services"
 
+
 const ProjectPage = ({ data }) => {
   return (
     <>

@@ -13,6 +13,8 @@ class Project extends Component {
   render() {
     const { category, title } = this.state
     const projects = this.props.projects
+
+  
     return (
       <div className="project section-lg" id="project">
         <Container>
